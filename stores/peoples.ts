@@ -24,6 +24,7 @@ export const usePeoplesStore = defineStore('peoples', () => {
   });
 
   async function fetchPeoples() {
+    isLoading.value = true;
     const { data } = await useFetch<IResponseData<IPeoples[]>>(`${baseUrl}/api/people`);
     peoples.value = data.value?.results.map((item) => ({
       name: item.name,
@@ -33,6 +34,7 @@ export const usePeoplesStore = defineStore('peoples', () => {
       url: item.url,
       isFavorite: false,
     }));
+    isLoading.value = false;
   }
 
   async function fetchPeople(id: string) {
