@@ -1,0 +1,49 @@
+body {
+  font-family: Lato, sans-serif !important;
+  font-size: 14px;
+  color: rgb(var(--color-black));
+}
+
+/* -animate-transition-vue- */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.fade-slide-up-enter-active,
+.fade-slide-up-leave-active {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.fade-slide-up-enter-from,
+.fade-slide-up-leave-to {
+  opacity: 0;
+  transform: translate(0, 7px);
+}
+
+.show-enter-active,
+.show-leave-active {
+  transition: transform 0.3s ease;
+}
+
+.show-enter-from,
+.show-leave-to {
+  transform: translateY(-100px);
+}
+
+.list-enter-active,
+.list-leave-active {
+  transition: all 0.3s ease;
+}
+
+.list-enter-from,
+.list-leave-to {
+  opacity: 0;
+  transform: translateY(-100px);
+}
+/* =animate-transition-vue= */

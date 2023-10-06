@@ -1,0 +1,43 @@
+<div class="prelaoder-wrapper" >
+    <svg class="prelaoder-animate" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M22 2V2C10.9543 2 2 10.9543 2 22V22" stroke="url(#paint0_linear_6413_286131)" stroke-width="3.5" stroke-linecap="round"/>
+        <path d="M22 2V2C33.0457 2 42 10.9543 42 22V22" stroke="url(#paint1_linear_6413_286131)" stroke-width="3.5" stroke-linecap="round"/>
+        <path d="M22 42V42C10.9543 42 2 33.0457 2 22V22" stroke="url(#paint2_linear_6413_286131)" stroke-width="3.5" stroke-linecap="round"/>
+        <defs>
+            <linearGradient id="paint0_linear_6413_286131" x1="2" y1="19.526" x2="23.4633" y2="9.13811" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#ABC40D"/>
+                <stop offset="1" stop-color="#9FD20C"/>
+            </linearGradient>
+            <linearGradient id="paint1_linear_6413_286131" x1="30.125" y1="7" x2="40.4375" y2="22.9375" gradientUnits="userSpaceOnUse">
+                <stop offset="0.150502" stop-color="#A0D30D"/>
+                <stop offset="1" stop-color="#A1D20D" stop-opacity="0"/>
+            </linearGradient>
+            <linearGradient id="paint2_linear_6413_286131" x1="2" y1="24.474" x2="23.4633" y2="34.8619" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#ABC40D"/>
+                <stop offset="1" stop-color="#9FD20C"/>
+            </linearGradient>
+        </defs>
+    </svg>
+</div>
+
+<style>
+.prelaoder-wrapper {
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.prelaoder-animate {
+    animation: rotate-loader 0.8s linear infinite;
+}
+
+@keyframes rotate-loader {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+</style>

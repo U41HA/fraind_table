@@ -1,0 +1,24 @@
+.title-h1 {
+  font-size: 48px;
+  line-height: 55px;
+}
+
+.xs\:text-middle {
+  font-size: 13px;
+  line-height: 17px;
+}
+
+@media (max-width: 1023px) {
+  .md\:title-h3 {
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.01em;
+  }
+}
+
+@media (max-width: 599px) {
+  .xs\:text-middle {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

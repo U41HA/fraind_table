@@ -1,0 +1,60 @@
+:root {
+  /* Colors. Only complicated color, other in tailwind.css */
+    --color-white-0: rgb(255, 255, 255);
+    --color-white-100: rgba(251, 251, 255, 1);
+    --color-grey-default: rgba(245, 245, 248, 1);
+    --color-grey-100: rgb(222, 222, 232);
+    --color-grey-150: rgba(174, 174, 191, 1);
+    --color-grey-200: rgba(143, 143, 167, 1);
+    --color-black-100: rgba(18, 18, 18, 1);
+
+    --ytme-color-primary-white: 255, 255, 255; /*#FFFFFF*/
+    --ytme-color-primary-black: 18, 18, 18; /*#121212*/
+    --ytme-color-total-black: 0, 0, 0; /*000000*/
+    --ytme-color-primary-night: 36, 42, 55; /*#242A37*/
+    --ytme-color-dark-grey-extra: 99, 99, 124; /*#63637C*/
+    --ytme-color-dark-grey-secondary: 130, 130, 150; /*#828296*/
+    --ytme-color-dark-grey-primary: 153, 153, 169; /*#9999A9*/
+    --ytme-color-dark-grey-main: 182, 182, 191; /*#63637C*/
+    --ytme-color-green-default: 171, 194, 50; /*#489FFF*/
+    --ytme-color-green-hover: 154, 174, 45; /*#6AB1FF*/
+    --ytme-color-green-click: 127, 164, 12; /*#7FA40C*/
+    --ytme-color-green-pale: 240, 246, 221; /*#F1F1F8*/
+    --ytme-color-green-superpale: 248, 251, 241; /*#F8FBF1*/
+    --ytme-color-green-superlight: 245, 249, 242;/*#F5F9F2*/
+    --ytme-color-green-extrapale: 127, 164, 12; /*#7FA40C*/
+    --ytme-color-red-default: 248, 69, 101; /*#F84565*/
+    --ytme-color-red-hover: 253, 90, 119; /*#FD5A77*/
+    --ytme-color-red-click: 233, 47, 80; /*#E92F50*/
+    --ytme-color-red-pale: 253, 239, 242; /*#FDEFF2*/
+    --ytme-color-red-border: 255, 188, 200; /*#FFBCC8*/
+    --ytme-color-grey-pale: 246, 247, 250; /*#F6F7FA*/
+    --ytme-color-grey-background: 241, 243, 248; /*#F1F3F8*/
+    --ytme-color-grey-default: 240, 242, 245; /*#F0F2F5*/
+    --ytme-color-grey-sidebar: 235, 238, 244; /*#EBEEF4*/
+    --ytme-color-grey-hover: 226, 230, 236; /*#E4E4E8*/
+    --ytme-color-grey-click: 215, 219, 226; /*#D7D7DD*/
+    --ytme-color-grey-divider: 219, 223, 233; /*#D1D7E8*/
+    --ytme-color-grey-light: 238, 238, 242; /*#EEEEF2*/
+    --ytme-color-purple-pale: 237, 237, 253; /*#EDEDFD*/
+    --ytme-color-purple-default: 111, 97, 197; /*#6F61C5*/
+    --ytme-color-orange-default: 210, 128, 4; /*#D28004*/
+    --ytme-color-orange-pale: 231, 143, 12; /*#E78F0C*/
+    --ytme-color-orange-superpale: 210, 126, 0; /*#D27E00*/
+
+    --ytme-color-green-gradient-primary: 171, 195, 13; /*#ABC30D*/
+    --ytme-color-green-gradient-secondary: 159, 210, 15; /*#9FD20C*/
+
+    --ytme-color-green-gradient-pale: 253, 255, 237; /*#FDFFED*/
+    --ytme-color-green-gradient-superpale: 240, 255, 244; /*#F0FFF4*/
+
+    --ytme-color-orange-gradient-primary: 255, 254, 232; /*#FFFEE8*/
+    --ytme-color-orange-gradient-secondary: 255, 253, 236; /*#FFFDEC*/
+    --ytme-color-orange-gradient-pale: 255, 246, 238; /*#FFF6EE*/
+
+
+
+    --ytme-transition-normal: 0.3s
+
+    --shadow-grey-100: 2px 2px 15px 0px rgba(153, 153, 169, 0.15);
+}
